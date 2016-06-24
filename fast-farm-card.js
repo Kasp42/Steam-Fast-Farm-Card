@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Steam Fast Farm Card
 // @namespace    https://github.com/Kasp42/SteamSummer2016
-// @version      0.9
+// @version      1.0
 // @description  Fast Farm Card From Steam Summer 2016
 // @author       Kasper (Telegram: https://telegram.me/kasp42)
 // @match        http://store.steampowered.com/explore*
@@ -24,7 +24,7 @@ var ViewList = function(queueNumber){
     jQuery.post('http://store.steampowered.com/explore/generatenewdiscoveryqueue', {sessionid: g_sessionID, queuetype: 0}).done(function(data){
         var requests = [];
         for(var i = 0; i < data.queue.length; i++)
-            requests.push( jQuery.post( 'http://store.steampowered.com/app/10', { appid_to_clear_from_queue: data.queue[i], sessionid: g_sessionID } ) );
+            requests.push( jQuery.post( 'http://store.steampowered.com/app/'+data.queue[i], { appid_to_clear_from_queue: data.queue[i], sessionid: g_sessionID } ) );
         jQuery.when.apply(jQuery, requests).done(function(){
             if( queueNumber < 3 ) ViewList( queueNumber );
             else $J('#AutoFarmCard span').text('Done!');
