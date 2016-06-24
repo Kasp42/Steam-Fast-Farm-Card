@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Fast Farm Card
 // @namespace    https://github.com/Kasp42/SteamSummer2016
-// @version      0.1
+// @version      0.6
 // @description  Fast Farm Card From Steam Summer 2016
 // @author       Kasper (GitHub: https://github.com/Kasp42)
 // @match        http://store.steampowered.com/explore/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/FiveElementNinja/Steam-Auto-Queue/master/steam-auto-queue.user.js
-// @downloadURL  https://raw.githubusercontent.com/FiveElementNinja/Steam-Auto-Queue/master/steam-auto-queue.user.js
+// @updateURL    https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.js
+// @downloadURL  https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.js
 // ==/UserScript==
 
 
