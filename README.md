@@ -6,7 +6,7 @@ This script automatically gets a card on Steam Summer Sale 2016
 ## Installation
 
 1. Make sure you have [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) if you're using Firefox, or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) if you're using Chrome. Steam Fast Farm Card will not work without Greasemonkey or Tampermonkey.
-2. After Greasemonkey/Tampermonkey are installed, visit https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.js.js and it will prompt you to install the script.
+2. After Greasemonkey/Tampermonkey are installed, visit https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.js and it will prompt you to install the script.
 
 ## Usage
 1. Once Steam Auto Queue is installed, visit http://store.steampowered.com/explore/ and click "Get Cards"
