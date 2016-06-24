@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Steam Fast Farm Card
 // @namespace    https://github.com/Kasp42/SteamSummer2016
-// @version      0.8
+// @version      0.9
 // @description  Fast Farm Card From Steam Summer 2016
 // @author       Kasper (Telegram: https://telegram.me/kasp42)
-// @match        http://store.steampowered.com/explore/*
+// @match        http://store.steampowered.com/explore*
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.js
 // @downloadURL  https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.js
