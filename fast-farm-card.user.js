@@ -6,8 +6,8 @@
 // @author       Kasper (Telegram: https://telegram.me/kasp42)
 // @match        http://store.steampowered.com/explore*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.js
-// @downloadURL  https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.js
+// @updateURL    https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.user.js
+// @downloadURL  https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.user.js
 // ==/UserScript==
 
 
