@@ -1,6 +1,6 @@
 # Steam Fast Farm Card
 
-This script automatically gets a card on Steam Summer Sale 2016
+This script automatically gets a card on Steam Summer Sale 2017
 
 
 ## Installation
