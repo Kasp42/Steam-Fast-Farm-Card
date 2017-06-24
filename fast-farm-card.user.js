@@ -7,8 +7,8 @@
 // @match        *://store.steampowered.com/explore*
 // @match        *://store.steampowered.com//explore*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.user.js
-// @downloadURL  https://raw.githubusercontent.com/Kasp42/SteamSummer2016/master/fast-farm-card.user.js
+// @updateURL    https://github.com/Kasp42/Steam-Fast-Farm-Card/raw/master/fast-farm-card.user.js
+// @downloadURL  https://github.com/Kasp42/Steam-Fast-Farm-Card/raw/master/fast-farm-card.user.js
 // ==/UserScript==
 
 
