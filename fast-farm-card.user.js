@@ -22,10 +22,10 @@
 
 var ViewList = function(queueNumber){
 	$J('#AutoFarmCard span').text('Wait('+(++queueNumber)+'/3)...');
-    jQuery.post('http://store.steampowered.com/explore/generatenewdiscoveryqueue', {sessionid: g_sessionID, queuetype: 0}).done(function(data){
+    jQuery.post('https://store.steampowered.com/explore/generatenewdiscoveryqueue', {sessionid: g_sessionID, queuetype: 0}).done(function(data){
         var requests = [];
         for(var i = 0; i < data.queue.length; i++)
-            requests.push( jQuery.post( 'http://store.steampowered.com/app/'+data.queue[i], { appid_to_clear_from_queue: data.queue[i], sessionid: g_sessionID } ) );
+            requests.push( jQuery.post( 'https://store.steampowered.com/app/'+data.queue[i], { appid_to_clear_from_queue: data.queue[i], sessionid: g_sessionID } ) );
         jQuery.when.apply(jQuery, requests).done(function(){
             if(queueNumber < 3) ViewList(queueNumber);
             else {
